@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    background-color: #024959;
+}
+
+.contacts{
+    width: 45%;
+    margin: 0 auto;
+}
+.add{
+    margin-left : 1rem;
+    padding : .3rem .8rem;
+    color: #F2E3D5;
+    background-color: #002333;
+    font-weight: bold;
+    border-radius: 110px;
+}
+.add:hover{
+    color : #012E40;
+    background-color: white;
+}
+.textInput {
+    width: 25rem;
+    height: 1.5rem;
+}
+.contact{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 1rem;
+    width :55%;
+    justify-content: space-between;
+}
+.contact:hover{
+    background-color: #F2E3D5;
+    color : black;
+    transition: all;
+    box-shadow: 5px 5px;
+    transition: all;
+
+}
+.contact div{
+   flex-basis: 30%;
+   text-align: left;
+}
+.image{
+    width: 30px;
+}
+.phoneBook{
+    padding: 1rem;
+}
+
